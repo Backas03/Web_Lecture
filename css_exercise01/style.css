@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 40px 0;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#header h1 {
+    margin: 0 0 12px 0;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+#header p {
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#content {
+    padding: 30px;
+}
+
+#profile {
+    background-color: lightblue;
+    background-image: url('profile.png');
+    background-repeat: no-repeat;
+    background-position: 25px center;
+    background-size: 190px;
+    height: 150px;
+    padding: 60px 25px 30px 245px;
+}
+
+#profile h2 {
+    margin: 0 0 18px 0;
+    font-size: 26px;
+}
+
+#profile p {
+    margin: 14px 0;
+    font-size: 17px;
+    color: dimgray;
+}
+
+.section {
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.section h2 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: navy;
+    border-bottom: 2px solid navy;
+}
+
+.tags {
+    margin: 0;
+    line-height: 3;
+}
+
+.tag {
+    padding: 12px 24px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.html {
+    background-color: lightgreen;
+}
+
+.css {
+    background-color: lightpink;
+}
+
+.javascript {
+    background-color: lightgray;
+}
+
+.git {
+    background-color: lightpink;
+}
+
+.intro {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+th {
+    width: 80px;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input[type="text"] {
+    width: 320px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    font-size: 14px;
+    background-color: lightyellow;
+}
+
+input[type="email"] {
+    width: 320px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    font-size: 14px;
+    background-color: lightcyan;
+}
+
+input:focus {
+    border: 1px solid navy;
+}
+
+input[type="submit"] {
+    padding: 14px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 16px;
+}
