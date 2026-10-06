@@ -1,0 +1,16 @@
+input:focus {
+    background-color: greenyellow;
+}
+
+input:checked {
+    accent-color: red;
+}
+
+input:enabled {
+    border: 2px solid blue;
+}
+
+input:disabled {
+    background-color: lightgray;
+    color: gray;
+}        
