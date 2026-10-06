@@ -1,0 +1,73 @@
+.header {
+    width: 500px;
+}
+
+.header-title {
+    width: 300px;
+    background: pink;
+    padding: 50px 100px;
+}
+
+.header-title h1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header-title h4 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header-list {
+    width: 500px;
+}
+
+.header-element {
+    float:left;
+    background: darkcyan;
+    width: 94px;
+    padding: 10px 2px;
+    border: 1px solid black;
+}
+
+.container {
+    width: 500px;
+    float: left;
+}
+
+.container-left {
+    float: left;
+    width: 300px;
+    height: 255px;
+    background: white;
+}
+
+.container-left h2 {
+    color: green;
+}
+
+.quick-menu {
+    width: 180px;
+    float: left;
+    background: lightblue;
+    padding: 10px 10px;
+}
+
+.quick-menu-content {
+    border: 1px solid gray;
+    padding: 10px 60px;
+}
+
+.footer {
+    float: left;
+    width: auto;
+    padding: 0px 200px;
+    background: lightgray;
+}
+
+.back {
+    width: 500px;
+    height: 505px;
+    background: darkgray;
+    padding: 10px 10px;
+}
