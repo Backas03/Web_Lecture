@@ -1,0 +1,89 @@
+.header {
+    width: 750px;
+}
+
+.header-title {
+    width: 450px;
+    background: darkgoldenrod;
+    padding: 75px 150px;
+}
+
+.header-title h1 {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header-title h4 {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header-list {
+    width: 750px;
+    text-align: center;
+}
+
+.header-element {
+    float: left;
+    background: darkcyan;
+    width: 144px;
+    padding: 10px 2px;
+    border: 1px solid black;
+}
+
+.container {
+    width: 750px;
+    float: right;
+}
+
+.container-left {
+    float: left;
+    width: 130px;
+    height: 480px;
+    background: pink;
+    padding: 10px 10px;
+}
+
+.container-left h2 {
+    color: green;
+}
+
+.container-middle {
+    float: left;
+    width: 430px;
+    height: 480px;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.container-middle-element-inner {
+    width: fit-content;
+    margin: 0 10px;
+}
+
+.conatiner-middle h2 {
+    color: darkred;
+}
+
+.container-middle-element {
+    width: 425px;
+    height: 90px;
+    border: 2px solid red;
+    background: pink;
+    margin: 10px 0px;
+}
+
+.container-right {
+    width: 130px;
+    height: 480px;
+    float: right;
+    background: pink;
+    padding: 10px 10px;
+}
+
+.background {
+    width: 750px;
+    height: 750px;
+    background: darkgray;
+    padding: 10px 10px;
+}
